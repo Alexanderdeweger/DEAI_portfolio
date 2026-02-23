@@ -44,13 +44,13 @@ b) g(n) = 3n^2
 c) g(n) = n^2 + 5
 d) g(n) = 3n^2 + 5
 
-8 Wat is de kleinste g(n) waarvoor geldt log3 n = O(g(n))? = c
+8 Wat is de kleinste g(n) waarvoor geldt log3 n = O(g(n))? = b
 a) g(n) = log1 n
 b) g(n) = log2 n
 c) g(n) = log3 n
 d) g(n) = log4 n
 
-9 Wat is de kleinste g(n) waarvoor geldt 10000000n + n^1.2 = O(g(n))? = d
+9 Wat is de kleinste g(n) waarvoor geldt 10000000n + n^1.2 = O(g(n))? = c
 a) g(n) = 10000000n
 b) g(n) = 20000000n
 c) g(n) = n^2
