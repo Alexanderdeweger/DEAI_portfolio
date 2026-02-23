@@ -1,0 +1,180 @@
+'''
+Bij alle opgaven geldt dat gekeken wordt naar het gedrag van functies bij n → ∞. Geef bij alle opgaven alle
+juiste antwoorden en zorg dat je de deze kunt uitleggen. De opgaven met een * achter het opgavenummer mag je
+overslaan.
+1 log2 1 = a
+a) 0
+b) 1/2
+c) 1
+d) 2
+
+2 log2 2 = c
+a) 0
+b) 1/2
+c) 1
+d) 2
+
+3 log2 4 = d
+a) 0
+b) 1/2
+c) 1
+d) 2
+
+4 log4 2 = b
+a) 0
+b) 1/2
+c) 1
+d) 2
+
+5 n + 2 = b
+a) O(1)
+b) O(n)
+c) O(n + 2)
+d) O(n^2)
+
+6 Wat is de kleinste g(n) waarvoor geldt n^2 + n^3 = O(g(n))? = b
+a) g(n) = n^2
+b) g(n) = n^3
+c) g(n) = n^2 + n^3
+d) g(n) = n^5
+
+7 Wat is de kleinste g(n) waarvoor geldt 3n^2 + 5 = O(g(n))? = a
+a) g(n) = n^2
+b) g(n) = 3n^2
+c) g(n) = n^2 + 5
+d) g(n) = 3n^2 + 5
+
+8 Wat is de kleinste g(n) waarvoor geldt log3 n = O(g(n))? = c
+a) g(n) = log1 n
+b) g(n) = log2 n
+c) g(n) = log3 n
+d) g(n) = log4 n
+
+9 Wat is de kleinste g(n) waarvoor geldt 10000000n + n^1.2 = O(g(n))? = d
+a) g(n) = 10000000n
+b) g(n) = 20000000n
+c) g(n) = n^2
+d) g(n) = 10000000n + n^1.1
+
+10 In een klas zitten n studenten. Een docent wil weten wie van de studenten de klassenvertegenwoordiger is. Hij vraagt
+aan elke student of hij/zij de klassenvertegenwoordiger is. Hoeveel vragen moeten er maximaal worden gesteld voor
+de docent zijn antwoord heeft? = 
+n
+
+11 In een klas zitten n studenten, waarbij 5 ≤n. Een docent wil weten wie van de studenten de klassenvertegenwoordiger
+is. Elke student weet dit, op 4 studenten na. Hij vraagt aan elke student wie de klassenvertegenwoordiger is. Hoeveel
+vragen moeten er maximaal worden gesteld voor de docent zijn antwoord heeft?
+4
+
+12 In een klas zitten n studenten. Een docent wil graag dat alle studenten elkaar leren kennen. Hij noemt de namen
+van twee studenten en vraagt hen om zich aan elkaar voor te stellen. En herhaalt dit met alle combinaties van twee
+studenten. Hoe vaak moet de docent twee namen noemen voordat zijn doel is bereikt?
+n^2
+
+13 Jan speelt een spel met Selma. Hij neemt een getal tussen 1 en n in gedachten dat Selma moet raden. Selma begint
+met het raden van 1, daarna 2 enzovoort, tot ze het juiste getal heeft geraden. Hoe vaak moet Selma maximaal
+raden met deze strategie?
+n keer
+
+14 Jan speelt een spel met Selma. Hij neemt een getal tussen 1 en n in gedachten dat Selma moet raden. Als Selma
+fout raadt vertelt Jan of ze te laag of te hoog heeft geraden. Selma weet dat het te raden getal tussen 1 en n ligt en
+raad een getal dat daar halverwege tussen ligt, n/2. Als Jan aangeeft dat ze te hoog geraden heeft weet ze dat het
+te raden getal tussen 1 en n/2 ligt, als ze te laag geraden heeft weet ze dat het te raden getal tussen n/2 en n ligt.
+Ze raadt weer een getal dat halverwege tussen de nieuw bekende grenzen ligt en herhaalt dit tot ze het juiste getal
+heeft geraden. Hoe vaak moet Selma maximaal raden met deze strategie?
+log2 n
+
+15 Hoeveel optellingen worden er uitgevoerd voordat deze methode een resultaat teruggeeft?
+def calculate(n):
+    result = 0;
+        for a in range(0, n):
+            for b in range (0, n):
+                for c in range (0, n):
+                    result += 1
+        return result
+
+n^3
+
+16* Hoeveel optellingen worden er uitgevoerd voordat deze methode een resultaat teruggeeft?
+def calculate(n):
+    result = 0;
+        for a in range(0, n):
+            for b in range (0, a):
+                for c in range (0, b):
+                result += 1
+        return result
+1/4n^3
+
+17* Hoeveel optellingen worden er uitgevoerd voordat deze methode een resultaat teruggeeft?
+def fibonacci(n):
+    return 1 if n <= 1 else fibonacci(n - 2) + fibonacci(n - 1)
+~2^n
+
+18 Het aantal vragen dat maximaal gesteld wordt in vraag 10 is (geef het kleinste antwoord) = c
+a) O(1)
+b) O(log2 n)
+c) O(n)
+d) O(n^2)
+
+19 Het aantal vragen dat maximaal gesteld wordt in vraag 11 is (geef het kleinste antwoord) = c
+a) O(1)
+b) O(log2 n)
+c) O(n)
+d) O(n^2)
+
+20 Het aantal vragen dat maximaal gesteld wordt in vraag 12 is (geef het kleinste antwoord) = d
+a) O(1)
+b) O(log2 n)
+c) O(n)
+d) O(n^2)
+
+21 Het aantal vragen dat maximaal gesteld wordt in vraag 13 is (geef het kleinste antwoord) = b
+a) O(log2 n)
+b) O(n)
+c) O(n^2)
+d) O(n^3)
+
+22 Het aantal vragen dat maximaal gesteld wordt in vraag 14 is (geef het kleinste antwoord) = a
+a) O(log2 n)
+b) O(n)
+c) O(n^2)
+d) O(n^3)
+
+23 Het aantal optellingen dat uitgevoerd wordt in vraag 15 is (geef het kleinste antwoord) = c
+a) O(n)
+b) O(n^2)
+c) O(n^3)
+d) O(2^n)
+
+24 Het aantal optellingen dat uitgevoerd wordt in vraag 16 is (geef het kleinste antwoord) = c
+a) O(n)
+b) O(n^2)
+c) O(n^3)
+d) O(2^n)
+
+25 Het aantal optellingen dat uitgevoerd wordt in vraag 17 is (geef het kleinste antwoord) = d
+a) O(n)
+b) O(n^2)
+c) O(n^3)
+d) O(2^n)
+
+26 Wat is de tijdscomplexiteit van deze methode?
+def foo(n, m):
+    result = 0;
+    for a in range(0, n):
+        result = veryfst(result) # 1 milliseconde per aanroep
+    for b in range(0, m):
+        result = veryslooooooooow(result) # 1 uur per aanroep
+O(nm)
+
+27 Wat is de tijdscomplexiteit van deze methode?
+def foo(n, m):
+    result = 0;
+    for a in range(0, n):
+        result = veryslooooooooow(result) # 1 uur per aanroep
+        for b in range(0, m):
+            result = veryfst(result) # 1 milliseconde per aanroep
+O(n^m)
+
+
+'''
