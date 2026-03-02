@@ -165,7 +165,7 @@ def foo(n, m):
         result = veryfst(result) # 1 milliseconde per aanroep
     for b in range(0, m):
         result = veryslooooooooow(result) # 1 uur per aanroep
-O(nm)
+O(n+m)
 
 27 Wat is de tijdscomplexiteit van deze methode?
 def foo(n, m):
@@ -174,7 +174,7 @@ def foo(n, m):
         result = veryslooooooooow(result) # 1 uur per aanroep
         for b in range(0, m):
             result = veryfst(result) # 1 milliseconde per aanroep
-O(n^m)
+O(mn)
 
 
 '''
