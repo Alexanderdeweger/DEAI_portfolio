@@ -1,6 +1,6 @@
 --BikeToDrive_2_Fietsverkoop;
 
-CREATE TABLE Fabrikant (
+CREATE TABLE Fietsverkoop_Fabrikant (
 	fabrikantnr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -9,7 +9,7 @@ CREATE TABLE Fabrikant (
 	PRIMARY KEY(fabrikantnr)
 );
 
-CREATE TABLE Filiaal (
+CREATE TABLE Fietsverkoop_Filiaal (
 	filiaalnr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -18,7 +18,7 @@ CREATE TABLE Filiaal (
 	PRIMARY KEY(filiaalnr)
 );
 
-CREATE TABLE Klant (
+CREATE TABLE Fietsverkoop_Klant (
 	klantnr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -26,32 +26,32 @@ CREATE TABLE Klant (
 	geslacht CHAR(1),
 	geboortedatum DATE,
 
-	PRIMARY KEY(fabrikantnr)
+	PRIMARY KEY(klantnr)
 );
 
-CREATE TABLE Monteur (
+CREATE TABLE Fietsverkoop_Monteur (
 	monteurnr INT,
 	naam VARCHAR(45),
 	woonplaats VARCHAR(100),
 	uurloon FLOAT,
 	filiaal INT,
 
-	PRIMARY KEY(fabrikantnr),
-	FOREIGN KEY(filiaal) REFERENCES Filiaal(filiaalnr)
+	PRIMARY KEY(monteurnr),
+	FOREIGN KEY(filiaal) REFERENCES Fietsverkoop_Filiaal(filiaalnr)
 );
 
-CREATE TABLE Fiets (
+CREATE TABLE Fietsverkoop_Fiets (
 	fietsnr INT,
 	soort VARCHAR(100),
 	merk VARCHAR(45),
 	type VARCHAR(45),
 	standaardprijs FLOAT,
 	inkoopprijs FLOAT,
-	kleur VARCHAR(45)
+	kleur VARCHAR(45),
 	fabrikant INT,
 
-	PRIMARY KEY(fabrikantnr)
-	FOREIGN KEY(fabrikant) REFERENCES Fabrikant(fabrikantnr)
+	PRIMARY KEY(fietsnr),
+	FOREIGN KEY(fabrikant) REFERENCES Fietsverkoop_Fabrikant(fabrikantnr)
 );
 
 CREATE TABLE Fiets_Verkoop (
@@ -63,8 +63,8 @@ CREATE TABLE Fiets_Verkoop (
 	fiets INT,
 	monteur INT,
 
-	PRIMARY KEY(fabrikantnr),
-	FOREIGN KEY(klant) REFERENCES Klant(klantnr),
-	FOREIGN KEY(fiets) REFERENCES Fiets(fietsnr),
-	FOREIGN KEY(monteur) REFERENCES Monteur(monteurnr)
+	PRIMARY KEY(fiets_verkoopnr),
+	FOREIGN KEY(klant) REFERENCES Fietsverkoop_Klant(klantnr),
+	FOREIGN KEY(fiets) REFERENCES Fietsverkoop_Fiets(fietsnr),
+	FOREIGN KEY(monteur) REFERENCES Fietsverkoop_Monteur(monteurnr)
 );

@@ -1,6 +1,6 @@
 --BikeToDrive_1_Accesoireverkoop;
 
-CREATE TABLE Leverancier (
+CREATE TABLE Accesoireverkoop_Leverancier (
 	leveranciernr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -9,7 +9,7 @@ CREATE TABLE Leverancier (
 	PRIMARY KEY(leveranciernr)
 );
 
-CREATE TABLE Filiaal (
+CREATE TABLE Accesoireverkoop_Filiaal (
 	filiaalnr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -18,7 +18,7 @@ CREATE TABLE Filiaal (
 	PRIMARY KEY(filiaalnr)
 );
 
-CREATE TABLE Klant (
+CREATE TABLE Accesoireverkoop_Klant (
 	klantnr INT,
 	naam VARCHAR(45),
 	adres VARCHAR(100),
@@ -27,21 +27,21 @@ CREATE TABLE Klant (
     geboortedatum DATE,
 
 
-	PRIMARY KEY(fabrikantnr)
+	PRIMARY KEY(klantnr)
 );
 
-CREATE TABLE Monteur (
+CREATE TABLE Accesoireverkoop_Monteur (
 	monteurnr INT,
 	naam VARCHAR(45),
 	woonplaats VARCHAR(45),
 	uurloon FLOAT,
     filiaal INT,
 
-	PRIMARY KEY(fabrikantnr),
-    FOREIGN KEY(filiaal) REFERENCES Filiaal(filiaalnr)
+	PRIMARY KEY(monteurnr),
+    FOREIGN KEY(filiaal) REFERENCES Accesoireverkoop_Filiaal(filiaalnr)
 );
 
-CREATE TABLE Accessoire (
+CREATE TABLE Accesoireverkoop_Accessoire (
 	accessoirenr INT,
 	naam VARCHAR(45),
 	standaardprijs FLOAT,
@@ -50,8 +50,8 @@ CREATE TABLE Accessoire (
     leverancier INT,
 
 
-	PRIMARY KEY(fabrikantnr),
-    FOREIGN KEY leverancier REFERENCES Leverancier(leveranciernr)
+	PRIMARY KEY(accessoirenr),
+    FOREIGN KEY(leverancier) REFERENCES Accesoireverkoop_Leverancier(leveranciernr)
 );
 
 CREATE TABLE Accessoire_Verkoop (
@@ -63,8 +63,8 @@ CREATE TABLE Accessoire_Verkoop (
     accessoire INT,
     monteur INT,
 
-	PRIMARY KEY(fabrikantnr),
-    FOREIGN KEY(klant) REFERENCES Klant(klantnr),
-    FOREIGN KEY(accessoire) REFERENCES Accessoire(accessoirenr),
-    FOREIGN KEY(monteur) REFERENCES Monteur(monteurnr)
+	PRIMARY KEY(accessoire_verkoopnr),
+    FOREIGN KEY(klant) REFERENCES Accesoireverkoop_Klant(klantnr),
+    FOREIGN KEY(accessoire) REFERENCES Accesoireverkoop_Accessoire(accessoirenr),
+    FOREIGN KEY(monteur) REFERENCES Accesoireverkoop_Monteur(monteurnr)
 );
