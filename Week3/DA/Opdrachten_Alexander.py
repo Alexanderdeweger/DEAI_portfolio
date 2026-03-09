@@ -5,14 +5,16 @@ class Node:
     
 
 class LinkedList:
-    def __init__(self, values):
-        assert isinstance(values, list)
-        self.head = Node(values[0], None)
-        prev_node = self.head
-        next_node = None
-        for i in values[1:]:
-            prev_node.next = Node(i, next_node)
-            prev_node = prev_node.next
+    def __init__(self, values= None):
+        if (values is None):
+            self.head = None
+        else:
+            self.head = Node(values[0], None)        
+            prev_node = self.head
+            next_node = None
+            for i in values[1:]:
+                prev_node.next = Node(i, next_node)
+                prev_node = prev_node.next
     
 
     def toString(self):
@@ -26,8 +28,12 @@ class LinkedList:
     
     
     def addFirst(self, value):
-        current_head = self.head
-        self.head = Node(value, current_head)
+        if(self.head == None):
+            self.head = Node(value, None)
+        else:
+            current_head = self.head
+            self.head = Node(value, current_head)
+        return self
 
     def remove(self, value):
         if self.head.data == value:
@@ -73,7 +79,7 @@ class LinkedList:
             self.remove(smallest)
         return new_list
 
-    def sorting_small_first(self):
+    def sortSimple(self):
         new_list = LinkedList([self.find_biggest()])
         self.remove(self.find_biggest())
         while self.head is not None:
@@ -81,18 +87,27 @@ class LinkedList:
             new_list.addFirst(biggest)
             self.remove(biggest)
         return new_list
+    
+    def uniq(self):
+        count = 1
+        current_node = self.head
+        while current_node is not None:
+            if current_node.next is None:
+                return count
+            if not current_node.data == current_node.next.data:
+                count = count + 1
+            current_node = current_node.next
 
     
 
-
-    
-List = LinkedList([3,6,32,6,8,9,5,34,6,8,68,24])
-print(List.toString())
-List.addFirst(7)
-print(List.toString)
-List.remove(3)
-print(List.toString())
-List_big = List.sorting_big_first()
-print(List_big.toString())
-List_small = List_big.sorting_small_first()
-print(List_small.toString())
+# List = LinkedList([1,2])
+# print(List.uniq())
+# List.addFirst(7)
+# List.remove(3)
+# print(List.toString())
+# List.remove(32)
+# print(List.toString())
+# List_big = List.sorting_big_first()
+# print(List_big.toString())
+# List_small = List_big.sortSimple()
+# print(List_small.toString())
