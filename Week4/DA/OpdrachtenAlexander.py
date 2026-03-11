@@ -128,17 +128,17 @@ class LinkedList:
     def subList(self, start, end):
         counter = 0
         currentNode = self.head
-        values = []
+        newList = LinkedList()
         while (currentNode is not None):
             if(counter >= start and counter < end):
-                values.append(currentNode.data)
+                newList.addLast(currentNode)
 
             currentNode = currentNode.next
             counter +=1
 
             if (counter == end):
-                return LinkedList(values)
-        return LinkedList(['u stupid'])
+                return newList
+        return LinkedList(['list is empty cant do that'])
     
     def merge(self, list):
         assert type(list) == LinkedList
