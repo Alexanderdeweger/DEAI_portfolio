@@ -1,0 +1,93 @@
+CREATE TABLE Datum_dim (
+    datum_key INT PRIMARY KEY,
+    datum DATE,
+    -- afgeleide dimensiewaardes 
+    jaar INT,
+    maand INT,
+    kwartaal INT,
+    dag INT
+);
+
+CREATE TABLE Klant_dim (
+    klant_key INT PRIMARY KEY,
+    klantnr INT,
+    naam VARCHAR(45),
+    adres VARCHAR(100),
+    woonplaats VARCHAR(45),
+    geslacht CHAR(1),
+    geboortedatum DATE
+);
+
+CREATE TABLE Monteur_dim (
+    monteur_key INT PRIMARY KEY,
+    monteurnr INT,
+    naam VARCHAR(45),
+    woonplaats VARCHAR(45),
+    uurloon FLOAT,
+    --we zijn voor een sterschema gegaan, niet een snowflake dus houden we de filliaal gegevens in de monteur
+    filiaalnaam VARCHAR(45),
+    filiaaladres VARCHAR(100),
+    filiaalprovincie VARCHAR(45)
+);
+
+CREATE TABLE Product_dim (
+    product_key INT PRIMARY KEY,
+    productnr INT,
+    naam VARCHAR(45),
+    type VARCHAR(20), -- dit gebruiken we om te voorkomen dat we 2 extra feittabelen nodig hebben voor fiets of accessoire 
+    soort VARCHAR(45),
+    merk VARCHAR(45),
+    kleur VARCHAR(45),
+    standaardprijs FLOAT,
+    inkoopprijs FLOAT,
+    leveranciernr INT,
+    leverancier_naam VARCHAR(45),
+    leverancier_adres VARCHAR(100),
+    leverancier_woonplaats VARCHAR(45),
+    fabrikantnr INT,
+    fabrikant_naam VARCHAR(45),
+    fabrikant_adres VARCHAR(100),
+    fabrikant_plaats VARCHAR(45)
+);
+
+CREATE TABLE Fact_Verkoop (
+    id INT PRIMARY KEY,
+    datum_key INT,
+    klant_key INT,
+    product_key INT,
+    monteur_key INT,
+    aantal INT,
+    verkoopprijs FLOAT,
+    -- afgeleide meetwaardes
+    totaleprijs FLOAT, -- antal * verkoopprijs
+    winst_per_product FLOAT, -- verkoopprijs - inkoopprijs
+    totalewinst FLOAT, -- aantal * winst_per_product
+
+
+    FOREIGN KEY (datum_key) REFERENCES Datum_dim(datum_key),
+    FOREIGN KEY (klant_key) REFERENCES Klant_dim(klant_key),
+    FOREIGN KEY (product_key) REFERENCES Product_dim(product_key),
+    FOREIGN KEY (monteur_key) REFERENCES Monteur_dim(monteur_key)
+);
+
+CREATE TABLE Fact_Onderhoud (
+    id INT PRIMARY KEY,
+    datum_key INT,
+    product_key INT,
+    monteur_key INT,
+    duur INT,
+
+    FOREIGN KEY (datum_key) REFERENCES Datum_dim(datum_key),
+    FOREIGN KEY (product_key) REFERENCES Product_dim(product_key),
+    FOREIGN KEY (monteur_key) REFERENCES Monteur_dim(monteur_key)
+);
+
+CREATE TABLE Fact_Inkoop (
+    id INT PRIMARY KEY,
+    datum_key INT,
+    product_key INT,
+    aantal INT,
+
+    FOREIGN KEY (datum_key) REFERENCES Datum_dim(datum_key),
+    FOREIGN KEY (product_key) REFERENCES Product_dim(product_key)
+);
