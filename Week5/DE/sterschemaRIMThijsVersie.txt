@@ -1,5 +1,5 @@
 CREATE TABLE Datum_dim (
-    datum_key INT PRIMARY KEY,
+    datum_key INTEGER PRIMARY KEY,
     datum DATE,
     -- afgeleide dimensiewaardes 
     jaar INT,
@@ -9,7 +9,7 @@ CREATE TABLE Datum_dim (
 );
 
 CREATE TABLE Klant_dim (
-    klant_key INT PRIMARY KEY,
+    klant_key INTEGER PRIMARY KEY,
     klantnr INT,
     naam VARCHAR(45),
     adres VARCHAR(100),
@@ -19,7 +19,7 @@ CREATE TABLE Klant_dim (
 );
 
 CREATE TABLE Monteur_dim (
-    monteur_key INT PRIMARY KEY,
+    monteur_key INTEGER PRIMARY KEY,
     monteurnr INT,
     naam VARCHAR(45),
     woonplaats VARCHAR(45),
@@ -31,7 +31,7 @@ CREATE TABLE Monteur_dim (
 );
 
 CREATE TABLE Product_dim (
-    product_key INT PRIMARY KEY,
+    product_key INTEGER PRIMARY KEY,
     productnr INT,
     naam VARCHAR(45),
     type VARCHAR(20), -- dit gebruiken we om te voorkomen dat we 2 extra feittabelen nodig hebben voor fiets of accessoire 
@@ -51,7 +51,7 @@ CREATE TABLE Product_dim (
 );
 
 CREATE TABLE Fact_Verkoop (
-    id INT PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     datum_key INT,
     klant_key INT,
     product_key INT,
@@ -71,7 +71,7 @@ CREATE TABLE Fact_Verkoop (
 );
 
 CREATE TABLE Fact_Onderhoud (
-    id INT PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     datum_key INT,
     product_key INT,
     monteur_key INT,
@@ -83,7 +83,7 @@ CREATE TABLE Fact_Onderhoud (
 );
 
 CREATE TABLE Fact_Inkoop (
-    id INT PRIMARY KEY,
+    id INTEGER PRIMARY KEY,
     datum_key INT,
     product_key INT,
     aantal INT,
