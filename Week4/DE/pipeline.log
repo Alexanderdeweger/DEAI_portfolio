@@ -1,0 +1,115 @@
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop] Starting load
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop] Extracted 100 rows from source
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop] Inserted 100 rows into target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fiets] Starting load
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fiets] Extracted 75 rows from source
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fiets] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fiets] Inserted 75 rows into target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fiets] Completed successfully in 0.02s
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fabrikant] Starting load
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fabrikant] Extracted 10 rows from source
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fabrikant] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fabrikant] Inserted 10 rows into target
+2026-03-26 10:54:24  INFO     [Fiets_Inkoop_Fabrikant] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop] Starting load
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop] Extracted 50 rows from source
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop] Inserted 50 rows into target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Accessoire] Starting load
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Accessoire] Extracted 13 rows from source
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Accessoire] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Accessoire] Inserted 13 rows into target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Accessoire] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Leverancier] Starting load
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Leverancier] Extracted 5 rows from source
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Leverancier] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Leverancier] Inserted 5 rows into target
+2026-03-26 10:54:24  INFO     [Accessoire_Inkoop_Leverancier] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Onderhoud] Starting load
+2026-03-26 10:54:24  INFO     [Onderhoud] Extracted 50 rows from source
+2026-03-26 10:54:24  INFO     [Onderhoud] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Onderhoud] Inserted 50 rows into target
+2026-03-26 10:54:24  INFO     [Onderhoud] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Onderhoud_Monteur] Starting load
+2026-03-26 10:54:24  INFO     [Onderhoud_Monteur] Extracted 15 rows from source
+2026-03-26 10:54:24  INFO     [Onderhoud_Monteur] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Onderhoud_Monteur] Inserted 15 rows into target
+2026-03-26 10:54:24  INFO     [Onderhoud_Monteur] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Onderhoud_Filiaal] Starting load
+2026-03-26 10:54:24  INFO     [Onderhoud_Filiaal] Extracted 5 rows from source
+2026-03-26 10:54:24  INFO     [Onderhoud_Filiaal] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Onderhoud_Filiaal] Inserted 5 rows into target
+2026-03-26 10:54:24  INFO     [Onderhoud_Filiaal] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Onderhoud_Fiets] Starting load
+2026-03-26 10:54:24  INFO     [Onderhoud_Fiets] Extracted 30 rows from source
+2026-03-26 10:54:24  INFO     [Onderhoud_Fiets] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Onderhoud_Fiets] Inserted 30 rows into target
+2026-03-26 10:54:24  INFO     [Onderhoud_Fiets] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Onderhoud_Fabrikant] Starting load
+2026-03-26 10:54:24  INFO     [Onderhoud_Fabrikant] Extracted 11 rows from source
+2026-03-26 10:54:24  INFO     [Onderhoud_Fabrikant] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Onderhoud_Fabrikant] Inserted 11 rows into target
+2026-03-26 10:54:24  INFO     [Onderhoud_Fabrikant] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fiets_Verkoop] Starting load
+2026-03-26 10:54:24  INFO     [Fiets_Verkoop] Extracted 150 rows from source
+2026-03-26 10:54:24  INFO     [Fiets_Verkoop] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fiets_Verkoop] Inserted 150 rows into target
+2026-03-26 10:54:24  INFO     [Fiets_Verkoop] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fiets] Starting load
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fiets] Extracted 75 rows from source
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fiets] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fiets] Inserted 75 rows into target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fiets] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Monteur] Starting load
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Monteur] Extracted 10 rows from source
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Monteur] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Monteur] Inserted 10 rows into target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Monteur] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Klant] Starting load
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Klant] Extracted 25 rows from source
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Klant] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Klant] Inserted 25 rows into target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Klant] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Filiaal] Starting load
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Filiaal] Extracted 4 rows from source
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Filiaal] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Filiaal] Inserted 4 rows into target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Filiaal] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fabrikant] Starting load
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fabrikant] Extracted 10 rows from source
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fabrikant] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fabrikant] Inserted 10 rows into target
+2026-03-26 10:54:24  INFO     [Fietsverkoop_Fabrikant] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accessoire_Verkoop] Starting load
+2026-03-26 10:54:24  INFO     [Accessoire_Verkoop] Extracted 100 rows from source
+2026-03-26 10:54:24  INFO     [Accessoire_Verkoop] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accessoire_Verkoop] Inserted 100 rows into target
+2026-03-26 10:54:24  INFO     [Accessoire_Verkoop] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Accessoire] Starting load
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Accessoire] Extracted 10 rows from source
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Accessoire] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Accessoire] Inserted 10 rows into target
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Accessoire] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Monteur] Starting load
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Monteur] Extracted 10 rows from source
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Monteur] Deleted existing rows from target
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Monteur] Inserted 10 rows into target
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Monteur] Completed successfully in 0.01s
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Klant] Starting load
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Klant] Extracted 20 rows from source
+2026-03-26 10:54:24  INFO     [Accesoireverkoop_Klant] Deleted existing rows from target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Klant] Inserted 20 rows into target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Klant] Completed successfully in 0.01s
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Filiaal] Starting load
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Filiaal] Extracted 4 rows from source
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Filiaal] Deleted existing rows from target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Filiaal] Inserted 4 rows into target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Filiaal] Completed successfully in 0.01s
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Leverancier] Starting load
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Leverancier] Extracted 5 rows from source
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Leverancier] Deleted existing rows from target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Leverancier] Inserted 5 rows into target
+2026-03-26 10:54:25  INFO     [Accesoireverkoop_Leverancier] Completed successfully in 0.01s
