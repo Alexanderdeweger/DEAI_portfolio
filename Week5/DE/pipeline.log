@@ -331,3 +331,540 @@
 2026-03-29 21:26:10  INFO       Inkoop geladen: 150 rijen
 2026-03-29 21:26:10  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
 2026-03-29 21:26:10  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 10:44:31  INFO     Verbinding met SDM en DWH geopend
+2026-04-01 10:45:56  INFO     START ETL: Monteur_dim
+2026-04-01 10:45:56  INFO       Source rows after merge: 18
+2026-04-01 10:45:56  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 10:45:56  INFO     DONE ETL: Monteur_dim
+2026-04-01 10:48:45  INFO     START: Alle tabellen legen
+2026-04-01 10:48:46  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 10:48:47  INFO     START ETL: Datum_dim
+2026-04-01 10:48:47  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 10:48:47  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 10:48:47  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 10:48:47  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 10:48:47  INFO     KLAAR ETL: Datum_dim
+2026-04-01 10:48:47  INFO     START ETL: Klant_dim
+2026-04-01 10:48:47  INFO       Customers from source: 30 rows
+2026-04-01 10:48:47  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 10:48:47  INFO     DONE ETL: Klant_dim
+2026-04-01 10:48:47  INFO     START ETL: Monteur_dim
+2026-04-01 10:48:47  INFO       Source rows after merge: 16
+2026-04-01 10:48:47  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 10:48:47  INFO     DONE ETL: Monteur_dim
+2026-04-01 10:48:47  INFO     START ETL: Product_dim
+2026-04-01 10:48:47  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 10:48:47  INFO       Accessoires geladen: 13 rijen
+2026-04-01 10:48:47  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 10:48:47  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 10:48:47  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 10:48:47  INFO     KLAAR ETL: Product_dim
+2026-04-01 10:48:47  INFO     START ETL: Fact_Onderhoud
+2026-04-01 10:48:47  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 10:48:47  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 10:48:47  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 10:48:47  INFO     START ETL: Fact_Verkoop
+2026-04-01 10:48:47  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 10:48:47  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 10:48:47  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 10:48:47  INFO     START ETL: Fact_Inkoop
+2026-04-01 10:48:47  INFO       Inkoop geladen: 150 rijen
+2026-04-01 10:48:47  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 10:48:47  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 10:49:41  INFO     START ETL: Monteur_dim
+2026-04-01 10:49:41  INFO       Source rows after merge: 18
+2026-04-01 10:49:41  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 10:49:41  INFO     DONE ETL: Monteur_dim
+2026-04-01 10:50:55  INFO     START: Alle tabellen legen
+2026-04-01 10:50:55  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 10:50:57  INFO     START ETL: Datum_dim
+2026-04-01 10:50:57  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 10:50:57  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 10:50:57  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 10:50:57  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 10:50:57  INFO     KLAAR ETL: Datum_dim
+2026-04-01 10:50:57  INFO     START ETL: Klant_dim
+2026-04-01 10:50:57  INFO       Customers from source: 30 rows
+2026-04-01 10:50:57  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 10:50:57  INFO     DONE ETL: Klant_dim
+2026-04-01 10:50:57  INFO     START ETL: Monteur_dim
+2026-04-01 10:50:57  INFO       Source rows after merge: 16
+2026-04-01 10:50:57  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 10:50:57  INFO     DONE ETL: Monteur_dim
+2026-04-01 10:50:57  INFO     START ETL: Product_dim
+2026-04-01 10:50:57  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 10:50:57  INFO       Accessoires geladen: 13 rijen
+2026-04-01 10:50:57  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 10:50:57  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 10:50:57  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 10:50:57  INFO     KLAAR ETL: Product_dim
+2026-04-01 10:50:57  INFO     START ETL: Fact_Onderhoud
+2026-04-01 10:50:57  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 10:50:57  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 10:50:57  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 10:50:57  INFO     START ETL: Fact_Verkoop
+2026-04-01 10:50:57  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 10:50:57  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 10:50:57  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 10:50:57  INFO     START ETL: Fact_Inkoop
+2026-04-01 10:50:57  INFO       Inkoop geladen: 150 rijen
+2026-04-01 10:50:57  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 10:50:57  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 11:23:13  INFO     START ETL: Monteur_dim
+2026-04-01 11:23:13  INFO       Source rows after merge: 18
+2026-04-01 11:23:13  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 11:23:13  INFO     DONE ETL: Monteur_dim
+2026-04-01 11:36:37  INFO     START ETL: Fact_Verkoop
+2026-04-01 11:36:37  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 11:36:37  WARNING    Geen key gevonden in Datum_dim voor datum=0
+2026-04-01 11:36:37  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 11:36:37  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 11:37:15  INFO     START: Alle tabellen legen
+2026-04-01 11:37:15  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 11:37:18  INFO     START ETL: Datum_dim
+2026-04-01 11:37:18  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 11:37:18  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 11:37:18  INFO       Unieke datums na deduplicatie: 202
+2026-04-01 11:37:18  INFO       Ingevoegd in Datum_dim: 202 rijen
+2026-04-01 11:37:18  INFO     KLAAR ETL: Datum_dim
+2026-04-01 11:37:18  INFO     START ETL: Klant_dim
+2026-04-01 11:37:18  INFO       Customers from source: 30 rows
+2026-04-01 11:37:18  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 11:37:18  INFO     DONE ETL: Klant_dim
+2026-04-01 11:37:18  INFO     START ETL: Monteur_dim
+2026-04-01 11:37:18  INFO       Source rows after merge: 18
+2026-04-01 11:37:18  INFO       Inserted: 18 rows | Expired: 0 rows
+2026-04-01 11:37:18  INFO     DONE ETL: Monteur_dim
+2026-04-01 11:37:18  INFO     START ETL: Product_dim
+2026-04-01 11:37:18  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 11:37:18  INFO       Accessoires geladen: 13 rijen
+2026-04-01 11:37:18  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 11:37:18  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 11:37:18  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 11:37:18  INFO     KLAAR ETL: Product_dim
+2026-04-01 11:37:18  INFO     START ETL: Fact_Onderhoud
+2026-04-01 11:37:18  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 11:37:18  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 11:37:18  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 11:37:18  INFO     START ETL: Fact_Verkoop
+2026-04-01 11:37:18  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 11:37:19  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 11:37:19  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 11:37:19  INFO     START ETL: Fact_Inkoop
+2026-04-01 11:37:19  INFO       Inkoop geladen: 150 rijen
+2026-04-01 11:37:19  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 11:37:19  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 11:41:03  INFO     START ETL: Fact_Verkoop
+2026-04-01 11:41:03  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 11:41:03  WARNING    Geen key gevonden in Datum_dim voor datum='1/1/2025'
+2026-04-01 11:41:03  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 11:41:03  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 11:42:52  INFO     START: Alle tabellen legen
+2026-04-01 11:42:52  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 11:42:54  INFO     START ETL: Datum_dim
+2026-04-01 11:42:54  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 11:42:54  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 11:42:54  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 11:42:54  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 11:42:54  INFO     KLAAR ETL: Datum_dim
+2026-04-01 11:42:54  INFO     START ETL: Klant_dim
+2026-04-01 11:42:54  INFO       Customers from source: 30 rows
+2026-04-01 11:42:54  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 11:42:54  INFO     DONE ETL: Klant_dim
+2026-04-01 11:42:54  INFO     START ETL: Monteur_dim
+2026-04-01 11:42:54  INFO       Source rows after merge: 16
+2026-04-01 11:42:54  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 11:42:54  INFO     DONE ETL: Monteur_dim
+2026-04-01 11:42:54  INFO     START ETL: Product_dim
+2026-04-01 11:42:54  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 11:42:54  INFO       Accessoires geladen: 13 rijen
+2026-04-01 11:42:54  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 11:42:54  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 11:42:54  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 11:42:54  INFO     KLAAR ETL: Product_dim
+2026-04-01 11:42:54  INFO     START ETL: Fact_Onderhoud
+2026-04-01 11:42:54  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 11:42:54  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 11:42:54  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 11:42:54  INFO     START ETL: Fact_Verkoop
+2026-04-01 11:42:54  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 11:42:54  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 11:42:54  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 11:42:54  INFO     START ETL: Fact_Inkoop
+2026-04-01 11:42:54  INFO       Inkoop geladen: 150 rijen
+2026-04-01 11:42:54  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 11:42:54  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 11:43:45  INFO     START ETL: Monteur_dim
+2026-04-01 11:43:45  INFO       Source rows after merge: 18
+2026-04-01 11:43:45  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 11:43:45  INFO     DONE ETL: Monteur_dim
+2026-04-01 11:44:17  INFO     START ETL: Fact_Verkoop
+2026-04-01 11:44:17  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 11:44:17  WARNING    Geen key gevonden in Datum_dim voor datum='1/1/2025'
+2026-04-01 11:44:17  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 11:44:17  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 11:45:26  INFO     START: Alle tabellen legen
+2026-04-01 11:45:26  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:09:32  INFO     START ETL: Datum_dim
+2026-04-01 13:09:32  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:09:32  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:09:32  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:09:33  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:09:33  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:09:33  INFO     START ETL: Klant_dim
+2026-04-01 13:09:33  INFO       Customers from source: 30 rows
+2026-04-01 13:09:33  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:09:33  INFO     DONE ETL: Klant_dim
+2026-04-01 13:09:33  INFO     START ETL: Monteur_dim
+2026-04-01 13:09:33  INFO       Source rows after merge: 16
+2026-04-01 13:09:33  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 13:09:33  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:09:33  INFO     START ETL: Product_dim
+2026-04-01 13:09:33  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:09:33  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:09:33  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:09:33  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:09:33  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:09:33  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:09:33  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:09:33  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:09:33  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:09:33  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:09:33  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:09:33  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:09:33  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:09:33  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:09:33  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:09:33  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:09:33  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:09:33  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:11:49  INFO     START ETL: Datum_dim
+2026-04-01 13:11:49  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:11:49  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:11:49  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:11:49  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:11:49  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:11:49  INFO     START ETL: Klant_dim
+2026-04-01 13:11:49  INFO       Customers from source: 30 rows
+2026-04-01 13:11:49  INFO       Inserted: 5 rows | Expired: 5 rows
+2026-04-01 13:11:49  INFO     DONE ETL: Klant_dim
+2026-04-01 13:11:49  INFO     START ETL: Monteur_dim
+2026-04-01 13:11:49  INFO       Source rows after merge: 16
+2026-04-01 13:11:49  INFO       Inserted: 1 rows | Expired: 1 rows
+2026-04-01 13:11:49  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:11:49  INFO     START ETL: Product_dim
+2026-04-01 13:11:49  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:11:49  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:11:49  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:11:49  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:11:49  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:11:49  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:11:49  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:11:49  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:11:49  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:11:49  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:11:49  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:11:49  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:11:50  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:11:50  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:11:50  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:11:50  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:11:50  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:11:50  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:12:07  INFO     START ETL: Monteur_dim
+2026-04-01 13:12:07  INFO       Source rows after merge: 18
+2026-04-01 13:12:07  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 13:12:07  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:12:11  INFO     START ETL: Datum_dim
+2026-04-01 13:12:11  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:12:37  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:12:37  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:12:37  WARNING    Geen key gevonden in Datum_dim voor datum='1/1/2025'
+2026-04-01 13:12:37  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:12:37  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:18:02  INFO     START: Alle tabellen legen
+2026-04-01 13:18:02  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:18:04  INFO     START ETL: Datum_dim
+2026-04-01 13:18:04  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:20:59  INFO     START: Alle tabellen legen
+2026-04-01 13:20:59  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:21:34  INFO     START ETL: Datum_dim
+2026-04-01 13:21:34  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:23:38  INFO     START ETL: Datum_dim
+2026-04-01 13:23:38  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:23:38  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:23:38  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:23:38  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:23:38  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:23:38  INFO     START ETL: Klant_dim
+2026-04-01 13:23:38  INFO       Customers from source: 30 rows
+2026-04-01 13:23:38  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:23:38  INFO     DONE ETL: Klant_dim
+2026-04-01 13:23:38  INFO     START ETL: Monteur_dim
+2026-04-01 13:23:38  INFO       Source rows after merge: 18
+2026-04-01 13:23:38  INFO       Inserted: 18 rows | Expired: 0 rows
+2026-04-01 13:23:38  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:23:38  INFO     START ETL: Product_dim
+2026-04-01 13:23:38  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:23:38  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:23:38  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:23:38  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:23:38  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:23:38  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:23:38  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:23:38  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:23:38  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:23:38  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:23:38  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:23:38  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:23:38  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:23:38  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:23:38  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:23:38  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:23:38  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:23:38  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:24:40  INFO     START: Alle tabellen legen
+2026-04-01 13:24:40  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:24:41  INFO     START ETL: Datum_dim
+2026-04-01 13:24:41  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:24:41  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:24:41  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:24:41  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:24:41  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:24:41  INFO     START ETL: Klant_dim
+2026-04-01 13:24:41  INFO       Customers from source: 30 rows
+2026-04-01 13:24:41  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:24:41  INFO     DONE ETL: Klant_dim
+2026-04-01 13:24:41  INFO     START ETL: Monteur_dim
+2026-04-01 13:24:41  INFO       Source rows after merge: 18
+2026-04-01 13:24:41  INFO       Inserted: 18 rows | Expired: 0 rows
+2026-04-01 13:24:41  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:24:41  INFO     START ETL: Product_dim
+2026-04-01 13:24:41  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:24:41  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:24:41  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:24:41  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:24:41  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:24:41  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:24:41  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:24:41  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:24:41  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:24:41  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:24:41  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:24:41  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:24:41  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:24:41  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:24:41  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:24:41  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:24:41  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:24:41  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:26:12  INFO     START ETL: Monteur_dim
+2026-04-01 13:26:12  INFO       Source rows after merge: 18
+2026-04-01 13:26:12  INFO       Inserted: 4 rows | Expired: 1 rows
+2026-04-01 13:26:12  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:26:19  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:26:19  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:26:19  WARNING    Geen key gevonden in Datum_dim voor datum='2025/1/1'
+2026-04-01 13:26:19  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:26:19  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:27:00  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:27:00  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:27:00  WARNING    Geen key gevonden in Datum_dim voor datum='2025/1/1'
+2026-04-01 13:27:00  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:27:00  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:28:15  INFO     START ETL: Datum_dim
+2026-04-01 13:28:15  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:28:56  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:28:56  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:28:56  WARNING    Geen key gevonden in Datum_dim voor datum='2025/1/1'
+2026-04-01 13:28:56  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:28:56  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:29:20  INFO     START: Alle tabellen legen
+2026-04-01 13:29:20  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:29:21  INFO     START ETL: Datum_dim
+2026-04-01 13:29:21  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:29:43  INFO     START ETL: Datum_dim
+2026-04-01 13:29:43  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:31:38  INFO     START: Alle tabellen legen
+2026-04-01 13:31:38  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:31:40  INFO     START ETL: Datum_dim
+2026-04-01 13:31:40  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:31:40  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:31:40  INFO       Unieke datums na deduplicatie: 202
+2026-04-01 13:31:40  INFO       Ingevoegd in Datum_dim: 202 rijen
+2026-04-01 13:31:40  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:31:40  INFO     START ETL: Klant_dim
+2026-04-01 13:31:40  INFO       Customers from source: 30 rows
+2026-04-01 13:31:40  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:31:40  INFO     DONE ETL: Klant_dim
+2026-04-01 13:31:40  INFO     START ETL: Monteur_dim
+2026-04-01 13:31:40  INFO       Source rows after merge: 18
+2026-04-01 13:31:40  INFO       Inserted: 18 rows | Expired: 0 rows
+2026-04-01 13:31:40  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:31:40  INFO     START ETL: Product_dim
+2026-04-01 13:31:40  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:31:40  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:31:40  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:31:40  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:31:40  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:31:40  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:31:40  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:31:40  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:31:40  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:31:40  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:31:40  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:31:40  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:31:40  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:31:40  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:31:40  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:31:40  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:31:40  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:31:40  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:31:58  INFO     START: Alle tabellen legen
+2026-04-01 13:31:58  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:31:59  INFO     START ETL: Datum_dim
+2026-04-01 13:31:59  INFO       Verkoop/onderhoud datums geladen: 197 rijen
+2026-04-01 13:31:59  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:31:59  INFO       Unieke datums na deduplicatie: 202
+2026-04-01 13:31:59  INFO       Ingevoegd in Datum_dim: 202 rijen
+2026-04-01 13:31:59  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:31:59  INFO     START ETL: Klant_dim
+2026-04-01 13:31:59  INFO       Customers from source: 30 rows
+2026-04-01 13:31:59  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:31:59  INFO     DONE ETL: Klant_dim
+2026-04-01 13:31:59  INFO     START ETL: Monteur_dim
+2026-04-01 13:31:59  INFO       Source rows after merge: 18
+2026-04-01 13:31:59  INFO       Inserted: 18 rows | Expired: 0 rows
+2026-04-01 13:31:59  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:31:59  INFO     START ETL: Product_dim
+2026-04-01 13:31:59  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:31:59  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:31:59  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:31:59  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:31:59  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:31:59  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:31:59  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:31:59  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:31:59  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:31:59  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:31:59  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:31:59  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:31:59  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:31:59  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:31:59  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:31:59  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:31:59  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:31:59  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:32:38  INFO     START: Alle tabellen legen
+2026-04-01 13:32:38  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:32:39  INFO     START ETL: Datum_dim
+2026-04-01 13:32:39  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:32:39  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:32:39  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:32:39  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:32:39  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:32:39  INFO     START ETL: Klant_dim
+2026-04-01 13:32:39  INFO       Customers from source: 30 rows
+2026-04-01 13:32:39  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:32:39  INFO     DONE ETL: Klant_dim
+2026-04-01 13:32:39  INFO     START ETL: Monteur_dim
+2026-04-01 13:32:39  INFO       Source rows after merge: 16
+2026-04-01 13:32:40  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 13:32:40  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:32:40  INFO     START ETL: Product_dim
+2026-04-01 13:32:40  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:32:40  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:32:40  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:32:40  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:32:40  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:32:40  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:32:40  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:32:40  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:32:40  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:32:40  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:32:40  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:32:40  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:32:40  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:32:40  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:32:40  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:32:40  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:32:40  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:32:40  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:32:50  INFO     START ETL: Datum_dim
+2026-04-01 13:32:50  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:32:50  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:32:50  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:32:50  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:32:50  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:32:50  INFO     START ETL: Klant_dim
+2026-04-01 13:32:50  INFO       Customers from source: 30 rows
+2026-04-01 13:32:50  INFO       Inserted: 5 rows | Expired: 5 rows
+2026-04-01 13:32:50  INFO     DONE ETL: Klant_dim
+2026-04-01 13:32:50  INFO     START ETL: Monteur_dim
+2026-04-01 13:32:50  INFO       Source rows after merge: 16
+2026-04-01 13:32:50  INFO       Inserted: 1 rows | Expired: 1 rows
+2026-04-01 13:32:50  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:32:50  INFO     START ETL: Product_dim
+2026-04-01 13:32:50  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:32:50  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:32:50  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:32:50  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:32:50  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:32:50  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:32:50  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:32:50  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:32:50  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:32:50  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:32:50  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:32:50  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:32:50  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:32:50  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:32:50  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:32:50  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:32:51  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:32:51  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:34:34  INFO     Verbinding met SDM en DWH geopend
+2026-04-01 13:34:56  INFO     START: Alle tabellen legen
+2026-04-01 13:34:56  INFO     KLAAR: Alle tabellen geleegd
+2026-04-01 13:34:57  INFO     START ETL: Datum_dim
+2026-04-01 13:34:57  INFO       Verkoop/onderhoud datums geladen: 196 rijen
+2026-04-01 13:34:57  INFO       Inkoop datums geladen: 12 rijen
+2026-04-01 13:34:57  INFO       Unieke datums na deduplicatie: 201
+2026-04-01 13:34:57  INFO       Ingevoegd in Datum_dim: 201 rijen
+2026-04-01 13:34:57  INFO     KLAAR ETL: Datum_dim
+2026-04-01 13:34:57  INFO     START ETL: Klant_dim
+2026-04-01 13:34:57  INFO       Customers from source: 30 rows
+2026-04-01 13:34:57  INFO       Inserted: 30 rows | Expired: 0 rows
+2026-04-01 13:34:57  INFO     DONE ETL: Klant_dim
+2026-04-01 13:34:57  INFO     START ETL: Monteur_dim
+2026-04-01 13:34:57  INFO       Source rows after merge: 16
+2026-04-01 13:34:57  INFO       Inserted: 16 rows | Expired: 0 rows
+2026-04-01 13:34:57  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:34:57  INFO     START ETL: Product_dim
+2026-04-01 13:34:57  INFO       Fietsen na merge met fabrikant: 75 rijen
+2026-04-01 13:34:57  INFO       Accessoires geladen: 13 rijen
+2026-04-01 13:34:57  INFO       Accessoires na merge met leverancier: 13 rijen
+2026-04-01 13:34:57  INFO       Totaal producten na concat: 88 rijen
+2026-04-01 13:34:57  INFO       Ingevoegd in Product_dim: 88 rijen
+2026-04-01 13:34:57  INFO     KLAAR ETL: Product_dim
+2026-04-01 13:34:57  INFO     START ETL: Fact_Onderhoud
+2026-04-01 13:34:57  INFO       Onderhoud geladen: 50 rijen
+2026-04-01 13:34:57  INFO       Ingevoegd in Fact_Onderhoud: 50 rijen
+2026-04-01 13:34:57  INFO     KLAAR ETL: Fact_Onderhoud
+2026-04-01 13:34:57  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:34:57  INFO       Verkoopregels geladen: 250 rijen
+2026-04-01 13:34:57  INFO       Ingevoegd in Fact_Verkoop: 250 rijen
+2026-04-01 13:34:57  INFO     KLAAR ETL: Fact_Verkoop
+2026-04-01 13:34:57  INFO     START ETL: Fact_Inkoop
+2026-04-01 13:34:57  INFO       Inkoop geladen: 150 rijen
+2026-04-01 13:34:57  INFO       Ingevoegd in Fact_Inkoop: 150 rijen
+2026-04-01 13:34:57  INFO     KLAAR ETL: Fact_Inkoop
+2026-04-01 13:35:49  INFO     START ETL: Monteur_dim
+2026-04-01 13:35:49  INFO       Source rows after merge: 18
+2026-04-01 13:35:49  INFO       Inserted: 4 rows | Expired: 2 rows
+2026-04-01 13:35:49  INFO     DONE ETL: Monteur_dim
+2026-04-01 13:36:07  INFO     START ETL: Fact_Verkoop
+2026-04-01 13:36:07  INFO       Verkoopregels geladen: 251 rijen
+2026-04-01 13:36:07  WARNING    Geen key gevonden in Datum_dim voor datum='2025-1-1'
+2026-04-01 13:36:07  INFO       Ingevoegd in Fact_Verkoop: 251 rijen
+2026-04-01 13:36:07  INFO     KLAAR ETL: Fact_Verkoop
