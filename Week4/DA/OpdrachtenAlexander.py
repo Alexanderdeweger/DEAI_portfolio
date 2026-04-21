@@ -30,6 +30,14 @@ class LinkedList:
             current_node = current_node.next
         return returnable_string
     
+    def returnDicts(self):
+        current_node = self.head
+        dicts = []
+        while current_node is not None:
+            dicts.append(current_node.data)
+            current_node = current_node.next
+        return dicts
+    
     
     def addFirst(self, value):
         if(self.head == None):
@@ -182,12 +190,12 @@ class LinkedList:
         return left.sortMerge().merge(right.sortMerge())
 
 
-List = LinkedList([1,2, 34, 63, 62, 6, 12,123,123,31,51,511]) 
+# List = LinkedList([1,2, 34, 63, 62, 6, 12,123,123,31,51,511]) 
 # tijdscomplexiteit is O(n)
 
-List2 = LinkedList([12,123,123,31,51,511])
-List.addLast(12)
-List.sortMerge()
-print(List.sortMerge().toString())
+# List2 = LinkedList([12,123,123,31,51,511])
+# List.addLast(12)
+# List.sortMerge()
+# print(List.sortMerge().toString())
 #tijdscomplexitiet van merge is vgm O(n+m) omdat het door allebei de lijsten geheel moet gaan
 #tijdscomplexitiet van sortMerge is vgm nlog(n) omdat het splitsen log(n) en je dat voor iedere waarde moet uitvoeren dus n keer
