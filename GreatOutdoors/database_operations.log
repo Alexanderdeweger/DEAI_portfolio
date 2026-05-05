@@ -1,0 +1,77 @@
+2026-05-04 17:22:22,540 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-04 17:22:22,541 - INFO - Creating new database: GreatOutdoors_DWH.db
+2026-05-04 17:22:22,541 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-04 19:34:54,161 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-04 19:34:54,161 - INFO - Creating new database: GreatOutdoors_DWH.db
+2026-05-04 19:34:54,163 - ERROR - Error connecting to GreatOutdoors_DWH.db: near "IF": syntax error
+2026-05-04 19:34:54,163 - CRITICAL - Failed to establish database connections: near "IF": syntax error
+2026-05-04 19:40:37,279 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-04 19:40:37,279 - INFO - Creating new database: GreatOutdoors_DWH.db
+2026-05-04 19:40:37,279 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 12:13:51,034 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 12:13:51,036 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 12:17:30,994 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 12:17:31,002 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 12:35:23,488 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 12:35:23,488 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 12:36:30,765 - INFO - START ETL: Datum_dim
+2026-05-05 12:36:30,786 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:36:30,845 - INFO -   Inkoop datums geladen: 1608 rijen
+2026-05-05 12:36:31,011 - INFO -   Unieke datums na deduplicatie: 1018
+2026-05-05 12:37:14,648 - INFO - START ETL: DATE
+2026-05-05 12:37:14,656 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:37:14,678 - INFO -   Inkoop datums geladen: 1608 rijen
+2026-05-05 12:37:14,822 - INFO -   Unieke datums na deduplicatie: 1018
+2026-05-05 12:37:14,856 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-05 12:37:14,858 - INFO - KLAAR ETL: DATE
+2026-05-05 12:39:25,096 - INFO - START ETL: DATE
+2026-05-05 12:39:25,098 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:39:25,105 - INFO -   Inkoop datums geladen: 1608 rijen
+2026-05-05 12:39:25,118 - INFO -   Unieke datums na deduplicatie: 1018
+2026-05-05 12:39:25,145 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-05 12:39:25,145 - INFO - KLAAR ETL: DATE
+2026-05-05 12:42:56,806 - INFO - START ETL: DATE
+2026-05-05 12:42:56,810 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:42:56,818 - INFO -   Inkoop datums geladen: 1608 rijen
+2026-05-05 12:42:56,831 - INFO -   Unieke datums na deduplicatie: 1018
+2026-05-05 12:42:56,865 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-05 12:42:56,865 - INFO - KLAAR ETL: DATE
+2026-05-05 12:45:21,903 - INFO - START ETL: DATE
+2026-05-05 12:45:21,906 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:45:21,911 - INFO -   Inkoop datums geladen: 1608 rijen
+2026-05-05 12:45:21,922 - INFO -   Unieke datums na deduplicatie: 1018
+2026-05-05 12:45:21,943 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-05 12:45:21,943 - INFO - KLAAR ETL: DATE
+2026-05-05 12:49:21,033 - INFO - START ETL: DATE
+2026-05-05 12:49:21,035 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 12:49:21,053 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-05 12:49:21,067 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-05 12:49:21,093 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-05 12:49:21,094 - INFO - KLAAR ETL: DATE
+2026-05-05 14:09:15,748 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 14:09:15,752 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 14:31:16,412 - INFO - START ETL: DATE
+2026-05-05 14:31:16,450 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 14:31:16,470 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-05 14:31:16,498 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-05 14:31:16,522 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-05 14:31:16,523 - INFO - KLAAR ETL: DATE
+2026-05-05 14:31:16,528 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-05 14:31:25,510 - INFO - START ETL: DATE
+2026-05-05 14:31:25,515 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 14:31:25,520 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-05 14:31:25,527 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-05 14:31:25,554 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-05 14:31:25,554 - INFO - KLAAR ETL: DATE
+2026-05-05 14:31:25,557 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-05 14:32:53,798 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 14:32:53,798 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 14:33:51,787 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-05 14:33:51,788 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-05 14:34:16,344 - INFO - START ETL: DATE
+2026-05-05 14:34:16,347 - INFO -   Csv datums geladen: 36 rijen
+2026-05-05 14:34:16,355 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-05 14:34:16,368 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-05 14:34:16,455 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-05 14:34:16,455 - INFO - KLAAR ETL: DATE
+2026-05-05 14:34:16,465 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
