@@ -200,3 +200,16 @@
 2026-05-06 15:34:52,213 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
 2026-05-06 15:34:55,538 - INFO - ORDER_DETAILS: inserted 0 rows
 2026-05-06 15:34:55,553 - INFO - RETURNED_ITEM: inserted 0 rows
+2026-05-06 15:45:20,902 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-06 15:45:20,902 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-06 15:50:08,820 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-06 15:50:08,820 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-06 15:50:09,327 - INFO - START ETL: DATE
+2026-05-06 15:50:09,335 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:50:09,354 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:50:09,361 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:50:09,411 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:50:09,411 - INFO - KLAAR ETL: DATE
+2026-05-06 15:50:09,427 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:50:16,943 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-06 15:50:17,075 - INFO - RETURNED_ITEM: inserted 690 rows
