@@ -190,3 +190,13 @@
 2026-05-06 15:33:41,408 - INFO - KLAAR ETL: DATE
 2026-05-06 15:33:41,419 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
 2026-05-06 15:33:44,743 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-06 15:34:44,303 - INFO - RETURNED_ITEM: inserted 690 rows
+2026-05-06 15:34:52,178 - INFO - START ETL: DATE
+2026-05-06 15:34:52,179 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:34:52,183 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:34:52,189 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:34:52,207 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:34:52,207 - INFO - KLAAR ETL: DATE
+2026-05-06 15:34:52,213 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:34:55,538 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-06 15:34:55,553 - INFO - RETURNED_ITEM: inserted 0 rows
