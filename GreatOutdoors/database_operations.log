@@ -75,3 +75,118 @@
 2026-05-05 14:34:16,455 - INFO -   Ingevoegd in DATE: 1009 rijen
 2026-05-05 14:34:16,455 - INFO - KLAAR ETL: DATE
 2026-05-05 14:34:16,465 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 14:08:32,681 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-06 14:08:32,694 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-06 14:08:36,547 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-06 14:08:36,547 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-06 14:08:36,764 - INFO - START ETL: DATE
+2026-05-06 14:08:36,764 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:08:36,764 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:08:36,782 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:10:40,244 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-06 14:10:40,244 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-06 14:10:42,460 - INFO - START ETL: DATE
+2026-05-06 14:10:42,462 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:10:42,468 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:10:42,473 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:11:59,468 - INFO - START ETL: DATE
+2026-05-06 14:11:59,470 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:11:59,474 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:11:59,477 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:11:59,498 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:11:59,498 - INFO - KLAAR ETL: DATE
+2026-05-06 14:11:59,502 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 14:17:18,324 - INFO - START ETL: DATE
+2026-05-06 14:17:18,325 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:17:18,327 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:17:18,334 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:17:18,353 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:17:18,354 - INFO - KLAAR ETL: DATE
+2026-05-06 14:17:18,358 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 14:17:37,420 - INFO - START ETL: DATE
+2026-05-06 14:17:37,421 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:17:37,425 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:17:37,432 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:17:56,632 - INFO - START ETL: DATE
+2026-05-06 14:17:56,633 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:17:56,636 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:17:56,638 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:17:56,661 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:17:56,661 - INFO - KLAAR ETL: DATE
+2026-05-06 14:17:56,665 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 14:18:38,394 - INFO - START ETL: DATE
+2026-05-06 14:18:38,395 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:18:38,399 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:18:38,401 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:18:38,414 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:18:38,414 - INFO - KLAAR ETL: DATE
+2026-05-06 14:18:38,426 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 14:22:53,674 - INFO - START ETL: DATE
+2026-05-06 14:22:53,676 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:22:53,678 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:22:53,685 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:23:06,509 - INFO - START ETL: DATE
+2026-05-06 14:23:06,510 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:23:06,513 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:23:06,521 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:23:06,540 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:23:06,540 - INFO - KLAAR ETL: DATE
+2026-05-06 14:23:06,544 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 14:23:17,267 - INFO - START ETL: DATE
+2026-05-06 14:23:17,268 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 14:23:17,268 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 14:23:17,268 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 14:23:17,289 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 14:23:17,289 - INFO - KLAAR ETL: DATE
+2026-05-06 14:23:17,300 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:03:16,484 - INFO - START ETL: DATE
+2026-05-06 15:03:16,485 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:03:16,489 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:03:16,496 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:03:16,511 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:03:16,511 - INFO - KLAAR ETL: DATE
+2026-05-06 15:03:16,511 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:13:56,038 - INFO - START ETL: DATE
+2026-05-06 15:13:56,040 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:13:56,043 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:13:56,050 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:13:56,066 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:13:56,066 - INFO - KLAAR ETL: DATE
+2026-05-06 15:13:56,070 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 15:19:47,721 - INFO - START ETL: DATE
+2026-05-06 15:19:47,723 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:19:47,730 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:19:47,735 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:19:47,753 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:19:47,753 - INFO - KLAAR ETL: DATE
+2026-05-06 15:19:47,760 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-06 15:31:54,713 - INFO - START ETL: DATE
+2026-05-06 15:31:54,715 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:31:54,719 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:31:54,724 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:31:54,740 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:31:54,741 - INFO - KLAAR ETL: DATE
+2026-05-06 15:31:54,747 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:32:34,949 - INFO - START ETL: DATE
+2026-05-06 15:32:34,950 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:32:34,953 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:32:34,959 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:32:34,976 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:32:34,976 - INFO - KLAAR ETL: DATE
+2026-05-06 15:32:34,982 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:33:35,385 - INFO - START ETL: DATE
+2026-05-06 15:33:35,387 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:33:35,391 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:33:35,397 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:33:35,422 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:33:35,422 - INFO - KLAAR ETL: DATE
+2026-05-06 15:33:35,429 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:33:38,892 - INFO - ORDER_DETAILS: inserted 40990 rows
+2026-05-06 15:33:41,376 - INFO - START ETL: DATE
+2026-05-06 15:33:41,377 - INFO -   Csv datums geladen: 36 rijen
+2026-05-06 15:33:41,382 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-06 15:33:41,387 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-06 15:33:41,407 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-06 15:33:41,408 - INFO - KLAAR ETL: DATE
+2026-05-06 15:33:41,419 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-06 15:33:44,743 - INFO - ORDER_DETAILS: inserted 0 rows
