@@ -213,3 +213,7 @@
 2026-05-06 15:50:09,427 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
 2026-05-06 15:50:16,943 - INFO - ORDER_DETAILS: inserted 0 rows
 2026-05-06 15:50:17,075 - INFO - RETURNED_ITEM: inserted 690 rows
+2026-05-07 14:11:47,677 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-07 14:11:47,678 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-09 14:00:04,799 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-09 14:00:04,799 - INFO - Successfully connected to GreatOutdoors_DWH.db
