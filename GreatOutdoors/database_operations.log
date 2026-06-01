@@ -241,3 +241,60 @@
 2026-05-11 14:51:54,242 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
 2026-05-11 14:51:56,653 - INFO - ORDER_DETAILS: inserted 0 rows
 2026-05-11 14:51:56,697 - INFO - RETURNED_ITEM: inserted 0 rows
+2026-05-20 14:13:32,464 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:13:32,464 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:19:49,749 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:19:49,751 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:19:50,189 - INFO - START ETL: DATE
+2026-05-20 14:19:50,191 - INFO -   Csv datums geladen: 36 rijen
+2026-05-20 14:19:50,209 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-20 14:19:50,229 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-20 14:19:50,262 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-20 14:19:50,262 - INFO - KLAAR ETL: DATE
+2026-05-20 14:19:50,286 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-20 14:19:54,418 - INFO - ORDER_DETAILS: inserted 40990 rows
+2026-05-20 14:19:54,517 - INFO - RETURNED_ITEM: inserted 690 rows
+2026-05-20 14:28:40,922 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:28:40,925 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:28:41,296 - INFO - START ETL: DATE
+2026-05-20 14:28:41,302 - INFO -   Csv datums geladen: 36 rijen
+2026-05-20 14:28:41,312 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-20 14:28:41,323 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-20 14:28:41,355 - INFO -   Ingevoegd in DATE: 1009 rijen
+2026-05-20 14:28:41,355 - INFO - KLAAR ETL: DATE
+2026-05-20 14:28:41,372 - INFO - PRODUCT: 115 inserted, 0 updated (SCD2), 0 unchanged
+2026-05-20 14:28:45,247 - INFO - ORDER_DETAILS: inserted 40990 rows
+2026-05-20 14:28:45,320 - INFO - RETURNED_ITEM: inserted 690 rows
+2026-05-20 14:28:50,641 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:28:50,644 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:28:51,001 - INFO - START ETL: DATE
+2026-05-20 14:28:51,007 - INFO -   Csv datums geladen: 36 rijen
+2026-05-20 14:28:51,016 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-20 14:28:51,028 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-20 14:28:51,062 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-20 14:28:51,062 - INFO - KLAAR ETL: DATE
+2026-05-20 14:28:51,086 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-20 14:28:55,180 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-20 14:28:55,262 - INFO - RETURNED_ITEM: inserted 0 rows
+2026-05-20 14:29:25,588 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:29:25,588 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:29:25,932 - INFO - START ETL: DATE
+2026-05-20 14:29:25,935 - INFO -   Csv datums geladen: 36 rijen
+2026-05-20 14:29:25,943 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-20 14:29:25,958 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-20 14:29:25,991 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-20 14:29:25,991 - INFO - KLAAR ETL: DATE
+2026-05-20 14:29:26,015 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-20 14:29:30,036 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-20 14:29:30,127 - INFO - RETURNED_ITEM: inserted 0 rows
+2026-05-20 14:29:36,393 - INFO - Successfully connected to GreatOutdoors_SDM.db
+2026-05-20 14:29:36,393 - INFO - Successfully connected to GreatOutdoors_DWH.db
+2026-05-20 14:29:36,697 - INFO - START ETL: DATE
+2026-05-20 14:29:36,706 - INFO -   Csv datums geladen: 36 rijen
+2026-05-20 14:29:36,713 - INFO -   Inkoop datums geladen: 1599 rijen
+2026-05-20 14:29:36,729 - INFO -   Unieke datums na deduplicatie: 1009
+2026-05-20 14:29:36,771 - INFO -   Ingevoegd in DATE: 0 rijen
+2026-05-20 14:29:36,771 - INFO - KLAAR ETL: DATE
+2026-05-20 14:29:36,792 - INFO - PRODUCT: 0 inserted, 0 updated (SCD2), 115 unchanged
+2026-05-20 14:29:40,639 - INFO - ORDER_DETAILS: inserted 0 rows
+2026-05-20 14:29:40,691 - INFO - RETURNED_ITEM: inserted 0 rows

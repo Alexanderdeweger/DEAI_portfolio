@@ -1,0 +1,13 @@
+Een spel in pygame.
+2d bullet hell game
+Speler kan alleen naar links en rechts.
+Er worden stenen naar beneden gegooid.
+Het is om een NN te trainen dus er wordt elke 100 ms een moment opnamen genomen met speler locatie, stenen locatie en punten en in een csv bestand gezet worden.
+Je hebt 3 levens, elke keer geraakt -1. 0 ben je dood en moet je opnieuw beginnen.
+
+Het scherm en de logica zijn gesplitst, als het in trainingsmode staat, dan staat het scherm niet aan om resources te besparen. De NN moet trainen om een zo'n hoog mogelijk score te halen.
+
+Elke steen die de grond raakt is 10 punten waard.
+Het spel wordt steeds lastiger (meer stenen en sneller) 
+Het spel is op een 440 x 440 scherm, de stenen 30 x 30 en de speler 20 x 40.
+Er vallen maximaal 14 stenen op tegelijkertijd.
